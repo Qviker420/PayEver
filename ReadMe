@@ -1,0 +1,11 @@
+Hello!!!
+
+Before You Run Tests, Please Go To ----> main/common/data.js  and change email_id to 1234 (it is for E-mail Generation)
+
+test_runners.spec.js is Entry point of my code.
+
+for running Test Scenarios, please Enter "npm run test" command in terminal and press enter
+
+Thanks.
+
+P.S. if I had a little bit of time i would've done much better :D
