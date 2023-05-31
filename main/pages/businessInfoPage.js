@@ -16,6 +16,12 @@ class BusinessInfoPage extends BasePage {
         var buttonElement = this.find_element("//button[@class='signup-button']");
         (await buttonElement).click();
     }
+    async select_industry()
+    {
+        this.find_elements("//peb-form-field-input")[1].click();
+        var option = this.find_element("//mat-option");
+        option[1].click();
+    }
 }
 
 module.exports = new BusinessInfoPage();

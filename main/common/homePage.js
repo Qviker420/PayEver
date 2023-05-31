@@ -10,6 +10,7 @@ class HomePage extends BasePage{
     async fill_first_name(content)
     {
         await this.element_selector("'First name'", "'firstName'", content);
+        return this;
     }
     async fill_last_name(content)
     {

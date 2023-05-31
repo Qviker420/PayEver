@@ -51,11 +51,11 @@ class BasePage{
         await webElementInput.sendKeys(content);
     }
 
-    async fill_dropdowns()
+    async fill_dropdowns(numberOfDropdowns)
     { 
         var i = 0;
         var list_of_perb_slects = await this.find_elements("//peb-select");
-        while (i < 4) {
+        while (i < numberOfDropdowns) {
         await list_of_perb_slects[i].click();
 
         var list_of_options = await this.find_elements("//peb-select-option");

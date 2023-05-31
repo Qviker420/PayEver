@@ -19,7 +19,7 @@ class TestCases extends BasePage{
 
     async bussiness_info()
     {
-        await bussinesInfo.fill_dropdowns();
+        await bussinesInfo.fill_dropdowns(4);
         await bussinesInfo.fill_name(DataClass.get_name());
         await bussinesInfo.fill_number(DataClass.get_number());
         await bussinesInfo.get_started();
@@ -33,10 +33,9 @@ class TestCases extends BasePage{
         await DashBoard.validate_icon('Connect');
         await DashBoard.validate_icon('Products');
         await DashBoard.validate_icon('Shop');
-        await DashBoard.validate_icon('Message');
+        await DashBoard.validate_icon('Message'); // this element is not present
         await DashBoard.validate_icon('Settings');
     }
-
     async santander_dashboard()
     {
         await DashBoard.get_started();
