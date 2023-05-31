@@ -13,10 +13,13 @@ github repository: https://github.com/Qviker420/PayEver
 
 I also could describe webElements in seperate class as pageFactory but, because of input field structure on this website, which needs two actions two fill fields click() and sendKeys() i think that main/common/basepage.js - element_selector() was better solution
 
+There is screen capture of my code performence, run video1651471865.mp4
+
 Reports:
 
 Massege Icon is not present in the dashboard,  
 Industry field is not neccessary for creating a new account
+
 
 Thanks.
 
