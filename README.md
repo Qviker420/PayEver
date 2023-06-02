@@ -24,3 +24,5 @@ Industry field is not neccessary for creating a new account
 Thanks.
 
 P.S. if I had a little bit of time i would've done much better :D
+
+comment added 6/2/2023: I thougt we had only 4 hours, now i saw that time was estimate, please consider while evaluating.
